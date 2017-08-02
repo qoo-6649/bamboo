@@ -74,6 +74,7 @@ li {
     line-height: 170px;
     color: #fff;
     -webkit-touch-callout: none;
+    border-radius: 40px;
 }
 li#top {
     margin-left: 35%;
