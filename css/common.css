@@ -1,0 +1,252 @@
+﻿
+@charset "UTF-8";
+body {
+    border: 0 none;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+h1.login_env {
+    border-radius: 3px;
+    color: #ffffff;
+    font-weight: normal;
+    margin: 6px 0 0;
+    padding: 1px;
+    text-align: center;
+    width: 156px;
+}
+h1.production {
+    background: none repeat scroll 0 0 #1bbcd4;
+}
+h1.stg {
+    background: none repeat scroll 0 0 #b00b16;
+}
+h1.dev {
+    background: none repeat scroll 0 0 #e5697e;
+}
+h2 {
+    color: #000;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px 0;
+    padding: 0;
+}
+h2.production {
+    background: linear-gradient(to bottom, #1bbcd4 0%, #56bfe0 49%, #34a8cd 49%, #11c3de 98%, #11c3de 98%, #47c6ee 98%, #47c6ee 98%, #47c6ee 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    width: 200px;
+}
+h2.production strong {
+    color: #fff;
+    text-shadow: -1px -1px 0 rgba(100, 100, 100, 1);
+}
+h2.stg {
+    background: linear-gradient(to bottom, #b00b16 0%, #ca131f 49%, #9e0510 50%, #c11c28 97%, #910711 97%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    width: 200px;
+}
+h2.stg strong {
+    color: #fff;
+    text-shadow: -1px -1px 0 rgba(100, 100, 100, 1);
+}
+h2.dev {
+    background: linear-gradient(to bottom, #f2acc1 -1%, #f2acc1 2%, #eb849a 2%, #f1a3b9 49%, #e5697e 49%, #ee96ac 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    width: 200px;
+}
+h2.dev strong {
+    color: #fff;
+    text-shadow: -1px -1px 0 rgba(100, 100, 100, 1);
+}
+img {
+    border: medium none;
+}
+a {
+    text-decoration: none;
+}
+hr {
+    border: 3px solid #334b8d;
+    display: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+form#recommend_edit {
+    margin-top: 20px;
+}
+form#freetext_edit {
+    margin-top: 20px;
+}
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.bold {
+    font-weight: bold;
+}
+.btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: linear-gradient(to bottom, #f1f1f1, #cdcdcd) repeat scroll 0 0 rgb(230, 230, 230);
+    border-color: #c3c3c3 #666 #666 #a6a6a6;
+    border-image: none;
+    border-left: 2px solid #a6a6a6;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    color: #333;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    height: 18px;
+    padding: 2px 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 1px 0 rgba(255, 255, 255, 0.4);
+    width: 194px;
+}
+.btn30 {
+    width: 30px;
+}
+.btn40 {
+    width: 40px;
+}
+.btn60 {
+    width: 60px;
+}
+.btn80 {
+    width: 80px;
+}
+.btn100 {
+    width: 100px;
+}
+.btn120 {
+    width: 120px;
+}
+.btn140 {
+    width: 140px;
+}
+button.btn, input.btn {
+    height: 26px;
+}
+#recommend_edit #contents td {
+    max-width: 610px;
+    word-wrap: break-word;
+}
+#freetext_edit #contents td {
+    max-width: 610px;
+    word-wrap: break-word;
+}
+div.head-orange {
+    background: linear-gradient(to bottom, #07138e 0%, #5864e7 3%, #081491 5%, #1926b1 36%, #1c28b5 49%, #000a74 54%, #000a75 62%, #000a7d 72%, #010f98 95%, #3e48b7 97%, #020f9c 100%) repeat scroll 0 0 rgb(10, 15, 150);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 5px;
+}
+div.head-orange img {
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 20px;
+}
+.pagination {
+    box-sizing: border-box;
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 480px;
+}
+.pagination a {
+    background: -moz-linear-gradient(center top , #bfd9e5, #3d95b7 50%, #0080b3 50%, #0099cc) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #0099cc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 2px;
+    padding: 2px 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    width: 40px;
+}
+.pagination .active a {
+    background: -moz-linear-gradient(center top , #ffffff, #6cb6dc 50%, #27a6dc 50%, #36c9ff) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #888888;
+    color: rgba(0, 0, 0, 0.7);
+    cursor: default;
+}
+.pagination .active a:hover, .pagination a:hover {
+    background: -moz-linear-gradient(center top , #fa4b4b, #f02828 50%, #e10000 50%, #f00000) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #f02828;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+.pagination .inactive a {
+    background: -moz-linear-gradient(center top , #eeeeee, #aaaaaa 50%, #888888 50%, #444444) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #888888;
+    color: rgba(0, 0, 0, 0);
+    cursor: default;
+}
+.error, .notice, .success {
+    border: 2px solid #ddd;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.error {
+    background: none repeat scroll 0 0 #fbe3e4;
+    border-color: #fbc2c4;
+    color: #8a1f11;
+}
+.notice {
+    background: none repeat scroll 0 0 #fff6bf;
+    border-color: #ffd324;
+    color: #514721;
+    text-align: left;
+}
+.success {
+    background: none repeat scroll 0 0 #e6efc2;
+    border-color: #c6d880;
+    color: #264409;
+}
+.errorMessageArea {
+    background-color: #ffc8d5;
+    background-image: url("../img/cross.png");
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    border-color: #ff0000;
+    border-style: solid;
+    border-width: 2px;
+    color: #9e0000;
+    display: block;
+    margin: 2px;
+    padding: 5px 5px 5px 15px;
+    text-align: left;
+}
+.errorInputTitle:after {
+    color: red;
+    content: "*";
+}
+.errorInputForm {
+    border-color: #ff0000;
+    border-style: solid;
+    border-width: 2px;
+}
+.requiredMark {
+    color: #ff0000;
+}
+div#contents input.btn120.btn{
+	float:left;
+	margin: 5px;
+}

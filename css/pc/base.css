@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*@import "footer.css";
+@import "header.css";
+@import "mymenu.css?var=20141106";
+@import "sidebar.css";
+@import "flipsnap.css";*/
+
+/* ----------------------------------------------
+ * general
+ * ---------------------------------------------- */
+body {
+	line-height: 1.4;
+	font-size: 14px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background: #fff;
+}
+
+/* ----------------------------------------------
+ * wrapper
+ * ---------------------------------------------- */
+#wrapper {
+	overflow: hidden;
+	margin: 0 auto 30px;
+	padding: 0 10px;
+	width: 920px;
+}
+
+/* ----------------------------------------------
+ * main
+ * ---------------------------------------------- */
+#main {
+	float: left;
+	width: 635px;
+}
+#main section {
+	margin-bottom: 10px;
+}
+
+.snap-drawer {
+	display: none;
+}

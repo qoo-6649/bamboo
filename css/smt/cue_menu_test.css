@@ -1,0 +1,120 @@
+
+@charset "utf-8";
+body{
+	background: #ddd;
+}
+ul{
+	list-style: none;
+}
+#navigation{
+    position: absolute !important;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+#navigation div{
+    position: relative;
+}
+#navigation div p{
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 32px;
+}
+#navigation div p.nav_op{
+    background: rgba(0, 0, 0, 0) url("/static/kogo/img/cue_menu/02rightMenu_white.png") no-repeat scroll 0 0 / 32px auto;
+}
+#navigation div p.nav_close{
+    background: rgba(0, 0, 0, 0) url("/static/kogo/img/cue_menu/02rightMenu.png") no-repeat scroll 0 0 / 32px auto;
+}
+.nav_op{
+	display: none;
+}
+.nav_close{
+    display: none;
+}
+#navigation div p span{
+    display: none;
+}
+#navigation ul{
+    margin: 0;
+    position: relative;
+}
+#navigation ul li{
+    left: 100%;
+    position: absolute;
+}
+#navigation ul li a{
+    display: inline-block;
+    width: 90%;
+}
+#navigation ul li a{
+    display: block;
+    height: 70px;
+    width: 70px;
+}
+#navigation ul li a:hover{
+    opacity: 0.9;
+    border: 2px solid #a9a6a5;
+}
+#navigation ul li a span{
+    display: none;
+}
+#navigation ul li.nav01{
+    top: 55px;
+}
+#navigation ul li.nav01 a{
+    background: rgba(0, 0, 0, 0) url("/static/kogo/img/cue_menu/mainicon-01_r2_c2.png") no-repeat scroll center top / 70px auto;
+}
+#navigation ul li.nav02{
+    top: 55px;
+}
+#navigation ul li.nav02 a{
+    background: rgba(0, 0, 0, 0) url("/static/kogo/img/cue_menu/mainicon-01_r2_c4.png") no-repeat scroll center top / 70px auto;
+}
+#navigation ul li.nav03{
+    top: 55px;
+}
+#navigation ul li.nav03 a{
+    background: rgba(0, 0, 0, 0) url("/static/kogo/img/cue_menu/mainicon-01_r2_c6.png") no-repeat scroll center top / 70px auto;
+}
+#navigation ul li.nav04{
+    top: 130px;
+}
+#navigation ul li.nav04 a{
+    background: rgba(0, 0, 0, 0) url("/static/kogo/img/cue_menu/mainicon-01_r4_c2.png") no-repeat scroll center top / 70px auto;
+}
+#navigation ul li.nav05{
+    top: 130px;
+}
+#navigation ul li.nav05 a{
+    background: rgba(0, 0, 0, 0) url("/static/kogo/img/cue_menu/mainicon-01_r4_c4.png") no-repeat scroll center top / 70px auto;
+}
+#navigation ul li.nav06{
+    top: 130px;
+}
+#navigation ul li.nav06 a{
+    background: rgba(0, 0, 0, 0) url("/static/kogo/img/cue_menu/mainicon-01_r4_c6.png") no-repeat scroll center top / 70px auto;
+}
+#navigation ul li.nav07{
+    top: 205px;
+}
+#navigation ul li.nav07 a{
+    background: rgba(0, 0, 0, 0) url("/static/kogo/img/cue_menu/mainicon-01_r6_c4.png") no-repeat scroll center top / 70px auto;
+}
+#navigation ul li.nav08{
+    top: 205px;
+}
+#navigation ul li.nav08 a{
+    background: rgba(0, 0, 0, 0) url("/static/kogo/img/cue_menu/mainicon-01_r6_c2.png") no-repeat scroll center top / 70px auto;
+}
+#navigation ul li.nav09{
+    top: 205px;
+}
+#navigation ul li.nav09 a{
+    background: rgba(0, 0, 0, 0) url("/static/kogo/img/cue_menu/mainicon-01_r6_c6.png") no-repeat scroll center top / 70px auto;
+}

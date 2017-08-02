@@ -1,0 +1,93 @@
+/* 画像をフレーム内に入れてないバージョン★確定版 */
+
+#status_area {
+    display: table;
+    font-size: 100%;
+    overflow: hidden;
+    position: relative;
+    table-layout: fixed;
+    width: 100%;
+}
+.status {
+    border: 2px solid #000;
+    border-radius: 3px;
+    display: table-cell;
+    float: left;
+    font-family: メイリオ;
+    margin: 0 auto;
+    overflow: auto;
+    vertical-align: middle;
+    width: 86%;
+}
+.status_img {
+    box-sizing: border-box;
+    display: table-cell;
+    overflow: hidden;
+    padding-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+    width: 85px;
+}
+.s_img {
+    width: 100%;
+}
+.bg_blue {
+    background: none repeat scroll 0 0 #01a0eb;
+    display: table;
+    overflow: auto;
+    padding: 1%;
+    table-layout: fixed;
+    width: 98%;
+}
+.bg_white {
+    display: table;
+    overflow: auto;
+    padding: 1%;
+    table-layout: fixed;
+    width: 98%;
+}
+.status_name {
+    display: table-cell;
+    font-size: 120%;
+    padding-left: 2%;
+    width: 40%;
+}
+.cc_area {
+    color: #fff;
+    display: table-cell;
+    padding-right: 2%;
+    text-align: right;
+    width: 25%;
+}
+.cc_balance {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 3px;
+    color: #e81b82;
+    display: table-cell;
+    padding-right: 2%;
+    text-align: right;
+    width: 40%;
+}
+.title {
+    background: none repeat scroll 0 0 #029fd2;
+    color: #fff;
+    display: table-cell;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    width: 25%;
+}
+.title_text {
+    display: table-cell;
+    font-size: 125%;
+    text-align: center;
+    vertical-align: middle;
+}
+.days {
+    color: #e81b82;
+    display: table-cell;
+    font-size: 80%;
+    text-align: right;
+    vertical-align: middle;
+    width: 20%;
+}

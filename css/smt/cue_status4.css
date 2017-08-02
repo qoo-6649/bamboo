@@ -1,0 +1,73 @@
+/* 画像のないバージョン */
+
+.status.none {
+    border: 2px solid #000;
+    border-radius: 3px;
+    display: table-cell;
+    float: left;
+    font-family: メイリオ;
+    margin: 0 auto;
+    overflow: auto;
+    vertical-align: middle;
+    width: 86%;
+}
+.bg_blue.none {
+    background: none repeat scroll 0 0 #01a0eb;
+    display: table;
+    overflow: auto;
+    padding: 1%;
+    table-layout: fixed;
+    width: 98%;
+}
+.bg_white.none {
+    display: table;
+    overflow: auto;
+    padding: 1%;
+    table-layout: fixed;
+    width: 98%;
+}
+.status_name.none {
+    display: table-cell;
+    font-size: 120%;
+    padding-left: 2%;
+    width: 40%;
+}
+.cc_area.none {
+    color: #fff;
+    display: table-cell;
+    padding-right: 2%;
+    text-align: right;
+    width: 25%;
+}
+.cc_balance.none {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 3px;
+    color: #e81b82;
+    display: table-cell;
+    padding-right: 2%;
+    text-align: right;
+    width: 40%;
+}
+.title.none {
+    background: none repeat scroll 0 0 #029fd2;
+    color: #fff;
+    display: table-cell;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    width: 25%;
+}
+.title_text.none {
+    display: table-cell;
+    font-size: 125%;
+    text-align: center;
+    vertical-align: middle;
+}
+.days.none {
+    color: #e81b82;
+    display: table-cell;
+    font-size: 80%;
+    text-align: right;
+    vertical-align: middle;
+    width: 20%;
+}

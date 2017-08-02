@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* BODY
+----------------------------------------------- */
+body {
+    border: 0 none;
+    font-family: "ÉqÉâÉMÉmäpÉS Pro W3","Hiragino Kaku Gothic Pro","ÉÅÉCÉäÉI",Meiryo,"ÇlÇr ÇoÉSÉVÉbÉN",sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+/* MAIN
+----------------------------------------------- */
+.main{
+    width: 100%;
+}
+.main_img{
+    position: relative;
+}
+/* BAR
+----------------------------------------------- */
+.bar.blue{
+    background-color: #2891b1;
+}
+/* PARTATION
+----------------------------------------------- */
+.partation{
+    width: 100%;
+}

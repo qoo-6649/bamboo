@@ -1,0 +1,55 @@
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+.menu ul li {
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    text-align: left;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+.menu ul li a {
+    background: url("../../../common/img/pc/cmn_icon_arrow02.png") no-repeat scroll 180px center rgba(0, 0, 0, 0);
+    color: #333;
+    display: block;
+    padding-left: 4px;
+    width: 100%;
+}
+.menu ul li a:hover {
+    color: #333;
+}
+.menu ul li a img {
+    margin-right: 4px;
+    vertical-align: middle;
+    width: 14px;
+}
+.menu li.corner01 {
+    background: linear-gradient(to bottom, #07138e 0%, #5864e7 3%, #081491 5%, #1926b1 36%, #1c28b5 49%, #000a74 54%, #000a75 62%, #000a7d 72%, #010f98 95%, #3e48b7 97%, #020f9c 100%) repeat scroll 0 0 #0a0f96;
+    color: #ffffff;
+    font-size: 14px;
+    padding-left: 4px;
+}
+.menu li.line01 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #ccc #ccc;
+    border-image: none;
+    border-right: 1px solid #ccc;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    color: #333;
+}
+.menuhead h1.logo {
+    background: url("../../../img/tenkijpmore_logo_pc.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    margin: 0 0 -28px 26px;
+    padding-bottom: 18px;
+    text-indent: -9999px;
+}

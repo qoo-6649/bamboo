@@ -1,0 +1,110 @@
+/* 画像をフレーム内に入れたバージョン */
+
+
+/* 画像をフレーム内に入れたバージョン */
+
+
+#status_area {
+    border: 2px solid #000;
+    border-radius: 3px;
+    display: table;
+    font-size: 100%;
+    margin-left: 4.5%;
+    overflow: hidden;
+    position: relative;
+    table-layout: fixed;
+    width: 90%;
+}
+.status {
+    font-family: メイリオ;
+    overflow: auto;
+    vertical-align: middle;
+}
+.status a {
+    color: #000;
+}
+.status a:link {
+    color: #000;
+}
+.status a:hover {
+    color: #000;
+}
+.status_img {
+    box-sizing: border-box;
+    display: table-cell;
+    overflow: hidden;
+    padding: 1%;
+    text-align: center;
+    vertical-align: middle;
+    width: 75px;
+}
+.s_img {
+    width: 100%;
+}
+.bg_blue {
+    background: none repeat scroll 0 0 #01a0eb;
+    border-radius: 3px;
+    display: table;
+    height: 48%;
+    overflow: auto;
+    padding: 1%;
+    table-layout: fixed;
+    width: 98%;
+}
+.bg_white {
+    display: table;
+    margin-top: 1%;
+    overflow: auto;
+    padding: 2% 1% 1%;
+    table-layout: fixed;
+    width: 98%;
+}
+.status_name {
+    display: table-cell;
+    font-size: 85%;
+    padding-left: 2%;
+    vertical-align: middle;
+    width: 40%;
+}
+.cc_area {
+    color: #fff;
+    display: table-cell;
+    font-size: 80%;
+    padding-right: 2%;
+    text-align: right;
+    vertical-align: middle;
+    width: 25%;
+}
+.cc_balance {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 3px;
+    color: #e81b82;
+    display: table-cell;
+    padding-right: 2%;
+    text-align: right;
+    vertical-align: middle;
+    width: 40%;
+}
+.title {
+    background: none repeat scroll 0 0 #029fd2;
+    color: #fff;
+    display: table-cell;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    width: 25%;
+}
+.title_text {
+    display: table-cell;
+    font-size: 120%;
+    text-align: center;
+    vertical-align: middle;
+}
+.days {
+    color: #e81b82;
+    display: table-cell;
+    font-size: 80%;
+    text-align: right;
+    vertical-align: middle;
+    width: 25%;
+}

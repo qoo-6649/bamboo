@@ -1,0 +1,114 @@
+
+@charset "utf-8";
+body {
+    border: 0 none;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+.publicStartEndDateYmd {
+    width: 90px;
+}
+.errorMessageArea {
+    background-color: #ffc8d5;
+    background-image: url("/common/img/admin/cross.png");
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    border-color: #ff0000;
+    border-style: solid;
+    border-width: 2px;
+    color: #9e0000;
+    display: block;
+    margin: 2px;
+    padding: 5px 5px 5px 15px;
+    text-align: left;
+}
+.btn30 {
+    width: 30px;
+}
+.btn40 {
+    width: 40px;
+}
+.btn60 {
+    width: 60px;
+}
+.btn80 {
+    width: 80px;
+}
+.btn100 {
+    width: 100px;
+}
+.btn120 {
+    width: 120px;
+}
+.btn140 {
+    width: 140px;
+}
+.btn {
+    background: linear-gradient(to bottom, #f1f1f1, #cdcdcd) repeat scroll 0 0 rgb(230, 230, 230);
+    border-color: #c3c3c3 #666 #666 #a6a6a6;
+    border-radius: 4px;
+    color: #333;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 1px 0 rgba(255, 255, 255, 0.4);
+}
+button.btn, input.btn {
+    height: 26px;
+}
+.btn120a {
+    background: linear-gradient(to bottom, #ff9041 0%, #ff5900 100%) repeat scroll 0 0 #ff711c;
+    border-color: #ffb47f #e4691e #dc4d01 #ffb47f;
+    color: #fff;
+    overflow: hidden;
+    text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.4);
+}
+#contents table {
+    background-color: #ffffff;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin: 0 auto;
+    padding: 0;
+}
+#contents th {
+    background-color: #caf3fd;
+    background-position: left top;
+    background-repeat: no-repeat;
+    border-bottom: 1px double #ccc;
+    border-left: 1px solid #ccc;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 3px 3px 10px;
+    white-space: nowrap;
+    word-break: keep-all;
+    word-wrap: normal;
+}
+#contents td {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    font-size: 12px;
+    margin: 1px;
+    padding: 2px;
+}
+#contents .noBorder table {
+    background-color: #ffffff;
+    border-right: 0 none;
+    border-top: 0 none;
+    margin: 0 auto;
+    padding: 0;
+}
+#contents .noBorder td {
+    border-color: -moz-use-text-color;
+    border-style: none;
+    border-width: 0;
+    font-size: 12px;
+    margin: 0;
+    padding: 2px;
+    white-space: nowrap;
+}

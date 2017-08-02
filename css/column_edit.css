@@ -1,0 +1,87 @@
+div#contents span.column{
+	margin-left: 30px;
+}
+input.column{
+    margin-left: 25px;
+}
+textarea.column{
+    margin-left: 25px;
+    padding: 5px;
+}
+div#contents div.caption{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    clear: both;
+    height:100px;
+    padding: 2px;
+    width: 610px;
+}
+div#contents div.caption span#button{
+	float:right;
+}
+div#contents div.column {
+	 border-radius: 10px;        /* CSS3草案 */  
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;   /* Firefox用 */  
+    border: 1px solid #ccc;
+    clear: both;
+    height: 223px;
+    padding: 2px;
+    width: 610px;
+}
+div#contents div.column span#button{
+	float:right;
+}
+div#contents div.img_column {
+	border-radius: 10px;        /* CSS3草案 */  
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;   /* Firefox用 */  
+    border: 1px solid #ccc;
+    clear: both;
+    height: 225px;
+    padding: 2px;
+    width: 610px;
+}
+div#contents div.img_column span#button{
+	float:right;
+}
+#column_left input {
+    width: 88%;
+}
+.img_column > input#fake_input_file {
+    float: left;
+}
+.img_column_text{
+	float: right;
+}
+.label{
+    background-color: #ccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.img_column > div#column_left {
+    float: left;
+    margin-top: 20px;
+    width: 29%;
+}
+span.caption{
+    margin-left: 30px;
+}
+#img_column > div#column_right {
+    float: right;
+    width: 67%;
+}
+#column_left > input{
+    float:right;
+}
+div.column_button{
+    text-align: center;
+}
+#column_right{
+    margin-top:10px;
+}
+span.img_column{
+    margin-left: 20px;
+}

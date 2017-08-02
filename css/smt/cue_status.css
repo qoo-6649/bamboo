@@ -1,0 +1,86 @@
+/* ステータス表示
+----------------------------------------------- */
+div#status_area {
+    text-align: center;
+    overflow: auto;
+}
+.status {
+	border: 2px solid #000;
+	border-radius: 3px;
+	float: left;
+    font-family: メイリオ;
+    margin: 0 auto;
+    width: 60%;
+    overflow: auto;
+}
+/* タレント画像
+----------------------------------------------- */
+.status_img {
+    float: left;
+    width: 10%;
+}
+.s_img{
+	float: left;
+	width: 80%;
+}
+/* 背景色指定
+----------------------------------------------- */
+.bg_blue {
+    background: none repeat scroll 0 0 #01a0eb;
+    overflow: auto;
+    padding: 1%;
+}
+.bg_white{
+	overflow: auto;
+	padding-left: 1%;
+    padding-right: 1%;
+}
+/* 上段
+----------------------------------------------- */
+.status_name{
+	float: left;
+	margin-left: 3%;
+	margin-right: 10px;
+}
+.cc_area{
+	color: #fff;
+	float: right;
+	width: 50%;
+}
+.cc_balance {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 3px;
+    color: #e81b82;
+    float: right;
+    margin-right: 1%;
+    padding-right: 2%;
+    text-align: right;
+    width: 73%;
+}
+/* 下段
+----------------------------------------------- */
+.title {
+    background: none repeat scroll 0 0 #029fd2;
+    color: #fff;
+    float: left;
+    font-size: 12px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    text-align: center;
+    width: 15%;
+}
+.title_text {
+    float: left;
+    font-size: 22px;
+    text-align: center;
+    width: 65%;
+}
+.days{
+	color: #e81b82;
+    float: right;
+    margin-top: 1%;
+    vertical-align: middle;
+}

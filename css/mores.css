@@ -1,0 +1,176 @@
+@charset "shift-JIS";
+
+/* テキスト選択防止
+----------------------------------------------- */
+html {
+user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-webkit-user-drag: none;
+-khtml-user-drag: none;
+-webkit-touch-callout: none;
+}
+/* もRe:ページ
+----------------------------------------------- */
+.mores_article {
+    overflow: auto;
+    background: #78a0c3;
+    position: relateve;
+}
+.mores_bg {
+    background: #000 none repeat scroll 0 0;
+    height: 5%;
+    overflow: auto;
+    width: 100%;
+}
+.cuefan {
+	float: left;
+	margin-left: 12px;
+    margin-top: 2%;
+	width: 13%;
+	position: absolute;
+}
+.logo {
+	width: 15%;
+}
+.icon {
+	width: 32px;
+	float: left;
+	padding-right: 7px;
+}
+.date {
+	color: #fff;
+    display: block;
+    font-size: 14px;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+}
+.s_date {
+	bottom: 12%;
+    color: #fff;
+    font-size: 9px;
+    position: absolute;
+    width: 12%;
+    padding-left: 5%;
+}
+.w_date {
+	bottom: 12%;
+    color: #fff;
+    font-size: 9px;
+    position: absolute;
+    width: 8%;
+    padding: 5px;
+}
+.t_date {
+	bottom: 23%;
+    color: #fff;
+    font-size: 9px;
+    position: absolute;
+    width: 4%;
+}
+.mores_green {
+	display: block;
+	position: relative;
+    float: right;
+    padding: 10px;
+    width: 75%;
+}
+.text_green {
+	background: #85e562 none repeat scroll 0 0;
+    display: block;
+    float: right;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 75%;
+    clear: both;
+    position: relative;
+    word-break: break-all;
+    font-size: 13px;
+}
+.mores_white {
+	clear: both;
+	display: block;
+	float: left;
+	padding: 10px;
+	position: relative;
+	width: 90%;
+}
+.text_white {
+	background: #fff;
+	display: block;
+	float: left;
+	padding: 10px;
+	border-radius: 20px;
+	word-break: break-all;
+	max-width: 63%;
+	position: relative;
+	font-size: 13px;
+}
+.mores_stamp {
+	clear: both;
+	display: block;
+	padding: 10px;
+	float: left;
+	position: relative;
+	width: 70%;
+}
+.stamp {
+	width: 55%;
+	padding: 10px;
+	border: 1px solid #78a0c3;
+}
+
+/* バルーン
+----------------------------------------------- */
+/* balloon-4 bottom-left */
+.text_green:before {
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #85e562;
+    border-top: 10px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -3%;
+    width: 0;
+}
+.text_white:before {
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #fff;
+    border-top: 10px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    left: -3%;
+    width: 0;
+}
+
+/* ボタン
+----------------------------------------------- */
+#button_area{
+	clear: both;
+	text-align: center;
+}
+.fav_btn {
+	/* Firefox */
+	background: -moz-linear-gradient(center top , #09aede 0%, #0085a6) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	/* Chrom と Safari */
+	background: -webkit-gradient(linear, center top, center bottom, from(#09aede), to(#0085a6));
+	/* 共通 */
+	background: linear-gradient(top center, #09aede 0%, #0085a6 100%);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #fff !important;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+}
+.fav_btn{
+	width: 72%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}

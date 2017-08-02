@@ -1,0 +1,153 @@
+﻿@charset "utf-8";
+
+/* body----------------------------------------------- */
+body {
+    background: none repeat scroll 0 0 #fff;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    font-size: 14px;
+    font-color: #24273a;
+    line-height: 1.4;
+}
+p.caption{
+	width: 90%;
+	border-left: 10px solid #cc3366;
+	border-bottom: 1px dashed #CC3366;
+}
+/* container----------------------------------- */
+#container{
+	margin: 0 auto;
+	padding: 0;
+	width: 80%;
+}
+
+/* debug_area
+----------------------------------------------- */
+.debug_area{
+	font-size: 80%;
+	background-color: #eee;
+	border: 1px dashed #ccc;
+	margin: 10px;
+	padding: 5px;
+	width: 80%;
+}
+/* result_area
+----------------------------------------------- */
+.result_area{
+    font-size: 90%;
+    border: 1px dotted #ddd;
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    overflow: hidden;
+}
+p.sub:before{
+    font-size: 130%;
+    color: #05a354;
+    content: "◆";
+}
+blockquote{
+    background: #cbf5ff url(http://www.webcreatorbox.com/sample/images/quote_open.gif) no-repeat 10px 10px;
+    padding: 20px;
+    text-indent: 15px;
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Meiryo,"メイリオ",Helvetica,Sans-Serif;
+}
+blockquote span{
+    background: url(http://www.webcreatorbox.com/sample/images/quote_close.gif) no-repeat bottom right;
+    display: block;
+}
+/* end_time
+----------------------------------------------- */
+.end_time{
+    float: right;
+    background-color: #cbf5ff;
+    font-size: 80%;
+    text-align: center;
+    border: 1px dotted #ddd;
+    margin: 10px;
+    padding: 5px;
+    min_width: 30%;
+}
+/* column_test
+----------------------------------------------- */
+div#column {
+    background-color: #eee;
+    height: 80px;
+    margin: 10px;
+    width: 400px;
+}
+div#contents input.btn120.btn{
+	float:left;
+	margin: 5px 5px 5px 30px;
+	background: -moz-linear-gradient(top,#B1D2E0 0%,#B1D2E0 3%,#0099CC 3%,#069);
+	background: -webkit-gradient(linear, left top, left bottom, from(#B1D2E0), color-stop(0.03,#B1D2E0), color-stop(0.03,#0099CC), to(#069));
+	color: #FFF;
+	border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	border: 1px solid #09C;
+	border-bottom: 3px solid #09C;
+	width: 100px;
+	padding: 10px 0;
+}
+div#contents span.column{
+	margin-left: 10px;
+}
+textarea.column{
+	float: right;
+	margin-right: 3px;
+    padding-bottom: 3px;
+}
+
+div#contents div#column {
+	 border-radius: 10px;        /* CSS3草案 */  
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;   /* Firefox用 */  
+    border: 1px solid #ccc;
+    clear: both;
+    height: 195px;
+    padding: 2px;
+    width: 610px;
+}
+div#contents div#column span#button{
+	float:right;
+}
+
+div#contents div#img_column {
+	border-radius: 10px;        /* CSS3草案 */  
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;   /* Firefox用 */  
+    border: 1px solid #ccc;
+    clear: both;
+    height: 195px;
+    padding: 2px;
+    width: 610px;
+}
+div#contents div#img_column span#button{
+	float:right;
+}
+
+#img_column > input#fake_input_file {
+    float: left;
+}
+.img_column_text{
+	float: right;
+}
+
+#img_column > div#column_left {
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    width: 28%;
+}
+
+#img_column > div#column_right {
+    float: right;
+    width: 67%;
+}
+#column_left > input{
+    float:right;
+}
+div.column_button{
+	text-align: center;
+}
