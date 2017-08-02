@@ -20,5 +20,5 @@ $(document).snowfall({
     // 要素に積もらせる場合
     //collection : '.collectonme',
     // オリジナル画像を使用する場合
-    image : "../img/sasa.png"
+    image : "../img/bamboo/sasa.png"
 });
