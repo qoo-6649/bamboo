@@ -49,7 +49,7 @@ div#title {
 canvas {
     display: block;
     margin: auto;
-    border: 5px dotted pink;
+    border: 10px solid #312d2e;
     background: #fff;
 }
 #controller {
