@@ -190,7 +190,7 @@ function newGame() {
   init();  // 盤面をまっさらにする
   newShape();  // 操作ブロックをセット
   lose = false;  // 負けフラッグ
-  interval = setInterval( tick, 250 );  // 250ミリ秒ごとにtickという関数を呼び出す
+  interval = setInterval( tick, 400 );  // 400ミリ秒ごとにtickという関数を呼び出す
 }
 
 newGame();
