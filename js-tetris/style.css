@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'font';
+    src: url('/Isobe-HR.ttf');
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+html {
+    background: #ddd6ce;
+    font-family: 'font';
+}
+canvas {
+    display: block;
+    margin: auto;
+    border: 5px dotted pink;
+    background: #fff;
+}
+#controller {
+    display: block;
+    width: 100%;
+}
+ul#button_box {
+    list-style: none;
+    float: right;
+    width: 100%;
+    margin-top: 30px;
+}
+li {
+    width: 300px;
+    height: 150px;
+    background: #ddd6ce;
+    display: inline-block;
+    text-align: center;
+    font-size: 35px;
+    vertical-align: middle;
+    -webkit-box-align: center;
+    line-height: 140px;
+    color: #fff;
+}
+li#top {
+    margin-left: 35%;
+    background: #1350cd;
+}
+li#left {
+    margin-left:  3%;
+    background: #1c9a5b;
+}
+li#right {
+    margin-left: 31%;
+    background: #d43e2d;
+}
+li#bottom {
+    margin-left: 35%;
+    background: #f6df43;
+}
