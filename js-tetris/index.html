@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html>
+<!--ヘッダー-->
 <head>
-    <title>HTML5 Tetris</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="user-scalable=no">
+    <title>テトリス</title>
+    <!--ファビコン-->
+    <link rel="shortcut icon" href="../favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="icon" href="../favicon.ico" type="image/vnd.microsoft.icon">
+    <!--CSS-->
     <link rel='stylesheet' href='style.css' />
 </head>
+<!--コンテンツ-->
 <body>
+
+    <!--音声ファイル-->
     <audio id="clearsound" src="sound/pop.ogg" preload="auto"></audio>
-    <canvas width='800' height='1200'></canvas>
+
+    <!--見出し-->
+    <div id="title">
+        <h1>テトリス</h1>
+        <p>jsでテトリスっぽいやつ</p>
+    </div>
+
+    <!--テトリスエリア-->
+    <canvas width='400' height='600'></canvas>
+
+    <!--JS-->
     <script src='js/tetris.js'></script>
     <script src='js/controller.js'></script>
     <script src='js/render.js'></script>
+
+    <!--コントローラ-->
     <div id="controller">
         <ul id="button_box">
             <li id="top">うえ</li>
@@ -18,5 +40,13 @@
             <li id="bottom">した</li>
         </ul>
     </div>
+
+    <!--フッター-->
+    <div id="footer">
+        <div class="panda_img">
+            <img class="panda" src="../img/bamboo/panda.jpg" alt="パンダ画像">
+        </div>
+    </div>
+
 </body>
 </html>

@@ -146,6 +146,7 @@ function clearLines() {
 
 // キーボードが押された時に呼び出される関数
 function keyPress( key ) {
+  console.log( key );
   switch ( key ) {
   case 'left':
     if ( valid( -1 ) ) {

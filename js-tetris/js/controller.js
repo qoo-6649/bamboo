@@ -1,5 +1,5 @@
 /*
- キーボードを入力した時に一番最初に呼び出される処理
+ * キーボードを入力した時に一番最初に呼び出される処理
  */
 document.body.onkeydown = function( e ) {
   // キーに名前をセットする
@@ -18,33 +18,42 @@ document.body.onkeydown = function( e ) {
   }
 };
 
-window.onload = function () {
+/*
+ * コントローラータップでブロックを動かす処理
+ * ※画面読み込み後に呼び出す
+ */
+document.addEventListener("DOMContentLoaded", function() {
 
-    document.getElementById("top").onmousedown = function () {
-        // セットされたキーの場合はtetris.jsに記述された処理を呼び出す
-        keyPress( 38 );
-        // 描画処理を行う
+    // うえ(回転)
+    document.getElementById("top").addEventListener('click', clickTop, false);
+
+    function clickTop() {
+        keyPress('rotate');
         render();
     };
 
-    document.getElementById("left").onmousedown = function () {
-        // セットされたキーの場合はtetris.jsに記述された処理を呼び出す
-        keyPress( 37 );
-        // 描画処理を行う
+    // ひだり
+    document.getElementById("left").addEventListener('click', clickLeft, false);
+
+    function clickLeft() {
+        keyPress('left');
         render();
     };
 
-    document.getElementById("right").onmousedown = function () {
-        // セットされたキーの場合はtetris.jsに記述された処理を呼び出す
-        keyPress( 39 );
-        // 描画処理を行う
+    // みぎ
+    document.getElementById("right").addEventListener('click', clickRight, false);
+
+    function clickRight() {
+        keyPress('right');
         render();
     };
 
-    document.getElementById("bottom").onmousedown = function () {
-        // セットされたキーの場合はtetris.jsに記述された処理を呼び出す
-        keyPress( 40 );
-        // 描画処理を行う
+    // した
+    document.getElementById("bottom").addEventListener('click', clickBottom, false);
+
+    function clickBottom() {
+        keyPress('down');
         render();
     };
-}
+
+}, false);
