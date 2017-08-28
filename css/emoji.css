@@ -11,8 +11,13 @@ body {
 }
 /* container------------------------------------------ */
 div#emoji {
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
+}
+
+table {
+	width: 100%;
+	margin-top: 5%;
 }
 
 img {
@@ -23,12 +28,16 @@ td {
     border-collapse: collapse;
     padding: 20px;
 	text-align: center;
+	background: rgba(170, 173, 206, 0.61);
+	border: 2px solid #FFF;
 }
 
 button#button {
-    width: 80%;
+    width: 100%;
+	padding: 10px;
 }
 
-input#emoji1 {
-    width: 80%;
+input {
+    width: 90%;
+	margin-bottom: 10px;
 }
